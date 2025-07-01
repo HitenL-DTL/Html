@@ -4,15 +4,194 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Hiten Laniya" />
-    <meta property="og:description" content="I have completed my BCA from Gujarat University in 2024" />
+    <meta property="og:description" content="I have completed my BCA from Navgujarat college of computer applications in 2024" />
     <meta property="og:image" itemprop="image" content="https://hitenl-dtl.github.io/Html/DTL-Hiten-Photoroom.png" />
     <meta property="og:image:width" content="320"/>
     <meta property="og:image:height" content="300"/>
     <title>Hiten Laniya</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 20px;
+    }
+
+    .header img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .header-info h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .header-info p {
+      margin: 5px 0;
+      color: #666;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .skills .skill {
+      margin-bottom: 10px;
+    }
+
+    .skill-name {
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+
+    .bar {
+      height: 8px;
+      background-color: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      background-color: #3498db;
+    }
+
+    .education, .experience {
+      margin-top: 10px;
+    }
+
+    .education-item, .experience-item {
+      margin-bottom: 15px;
+    }
+
+    .edu-title, .exp-title {
+      font-weight: bold;
+    }
+
+    .contact {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .contact span {
+      display: inline-block;
+      margin-right: 15px;
+    }
+
+    @media (max-width: 600px) {
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Hiten Laniya</h1>
-    <img src="DTL-Hiten-Photoroom.png" alt="Hiten Laniya">
-    <p>My name is Hiten. I have completed my BCA from Gujarat University in 2024</p>
+    <div class="container">
+    <div class="header">
+      <img src="./DTL-Hiten-Photoroom.png" alt="Profile Photo">
+      <div class="header-info">
+        <h1>Hiten Laniya</h1>
+        <p>Python Developer</p>
+        <div class="contact">
+          <span>Email: hiten@example.com</span>
+          <span>Phone: +91-1234567890</span>
+          <span>Location: Vastral, Ahmedabad</span>
+          <span>Date of Birth: 24/08/2004</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section education">
+      <h2>Education</h2>
+      <div class="education-item">
+        <div class="edu-title">BCA</div>
+        <div>Navgujarat college of computer applications, 2024</div>
+        <div>CGPA: 7.65</div>
+      </div>
+      <div class="education-item">
+        <div class="edu-title">HSC</div>
+        <div>Hiraba vidhyalaya, 2021</div>
+        <div>Percentage: 81.43</div>
+      </div>
+      <div class="education-item">
+        <div class="edu-title">SSC</div>
+        <div>Hiraba vidhyalaya, 2019</div>
+        <div>Percentage: 79.83</div>
+      </div>
+    </div>
+
+    <div class="section skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>
+            <div class="skill">
+                <div class="skill-name">Python</div>
+            </div>
+        </li>
+        <li>
+            <div class="skill">
+                <div class="skill-name">Python</div>
+            </div>
+        </li>
+        <li>
+            <div class="skill">
+                <div class="skill-name">Django</div>
+            </div>
+        </li>
+        <li>
+            <div class="skill">
+                <div class="skill-name">Javascript</div>
+            </div>
+        </li>
+        <li>
+            <div class="skill">
+                <div class="skill-name">jQuery</div>
+            </div>
+        </li>
+        <li>
+            <div class="skill">
+                <div class="skill-name">Bootstrap</div>
+            </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section experience">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <div class="exp-title">Python Developer at Droptechnolab pvt ltd</div>
+        <div>2024 - Present</div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
